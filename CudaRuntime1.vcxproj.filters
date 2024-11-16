@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="C Header Files">
+      <UniqueIdentifier>{5b673ff7-50a6-4b67-b79f-692e75a0caef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDA Relative Files">
+      <UniqueIdentifier>{3d19b6e1-38cd-4541-abe3-3c0a14a273b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C Entry File">
+      <UniqueIdentifier>{af0e55c9-844f-4e26-b221-9abdeb12a186}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CUDA_CAU_HEARER.h">
+      <Filter>CUDA Relative Files</Filter>
+    </ClInclude>
+    <ClInclude Include="baseHeader.h">
+      <Filter>C Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="kernel.cu">
+      <Filter>CUDA Relative Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="baseSource.cu">
+      <Filter>CUDA Relative Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="mainEntry.cu">
+      <Filter>C Entry File</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
